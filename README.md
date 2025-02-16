@@ -1,10 +1,10 @@
-Stopwatch with Dual Mode (Increment and Countdown) Using ATmega32
+#Stopwatch with Dual Mode (Increment and Countdown) Using ATmega32#
 
-Overview
+Overview:
 
 This project implements a digital stopwatch with two operational modes: increment (count-up) and countdown. It is built using an ATmega32 microcontroller, six multiplexed seven-segment displays (common anode), and push buttons for user interaction.
 
-Features
+Features:
 
 Increment Mode (Default): Counts upwards from zero, displaying hours, minutes, and seconds.
 
