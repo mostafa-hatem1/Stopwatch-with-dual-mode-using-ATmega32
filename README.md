@@ -1,10 +1,10 @@
-Stopwatch with Dual Mode (Increment and Countdown) Using ATmega32
+#Stopwatch with Dual Mode (Increment and Countdown) Using ATmega32
 
-Overview
+##Overview
 
 This project implements a digital stopwatch with two operational modes: increment (count-up) and countdown. It is built using an ATmega32 microcontroller, six multiplexed seven-segment displays (common anode), and push buttons for user interaction.
 
-Features
+##Features
 
 Increment Mode (Default): Counts upwards from zero, displaying hours, minutes, and seconds.
 
@@ -18,7 +18,7 @@ Resume Function: Resumes counting from the paused time.
 
 Mode Toggle: Switches between increment and countdown modes.
 
-Hardware Requirements
+##Hardware Requirements
 
 ATmega32 Microcontroller
 
@@ -30,7 +30,7 @@ Buzzer (for alert on countdown completion)
 
 Resistors & Capacitors as needed
 
-Software & Tools
+##Software & Tools
 
 AVR Studio / Atmel Studio for programming
 
@@ -38,7 +38,7 @@ AVR GCC Compiler
 
 USBasp or Any AVR Programmer
 
-Proteus (Optional for Simulation)
+##Proteus (Optional for Simulation)
 
 Proteus Simulation
 
@@ -54,7 +54,7 @@ Buzzer component to confirm countdown completion.
 
 Using Proteus allows for debugging the circuit design, checking timing accuracy, and verifying button operations before moving to real hardware.
 
-Working Principle
+##Working Principle
 
 The seven-segment displays are multiplexed to show hours, minutes, and seconds.
 
@@ -64,7 +64,7 @@ External interrupts handle the reset, pause, resume, and mode toggle functions.
 
 The buzzer alerts when the countdown reaches zero.
 
-Installation & Usage
+##Installation & Usage
 
 Flash the provided code to the ATmega32 using a programmer.
 
@@ -80,7 +80,7 @@ Set time manually in Countdown mode
 
 The display updates in real time to reflect the current time value.
 
-Future Enhancements
+##Future Enhancements
 
 Adding an LCD display for better readability.
 
@@ -88,6 +88,6 @@ Implementing a Real-Time Clock (RTC) module.
 
 EEPROM storage to retain time during power loss.
 
-License
+##License
 
 This project is open-source. Feel free to modify and improve it!
