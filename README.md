@@ -1,4 +1,4 @@
-#Stopwatch with Dual Mode (Increment and Countdown) Using ATmega32
+##Stopwatch with Dual Mode (Increment and Countdown) Using ATmega32##
 
 ##Overview
 
